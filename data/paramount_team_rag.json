@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pi_team_01",
+    "text": "Ali Azzam is the CEO and Founding Partner of Paramount Intelligence. He leads the company’s AI strategy, enterprise consulting engagements, and intelligent systems engineering initiatives.",
+    "source": "/team",
+    "category": "team",
+    "chunk_index": 0
+  },
+  {
+    "id": "pi_team_02",
+    "text": "Zia Ul Din and Muhammad Ammar Cheema serve as Senior AI and Automation Experts at Paramount Intelligence, working on enterprise AI systems, automation architecture, and advanced machine learning implementations.",
+    "source": "/team",
+    "category": "team",
+    "chunk_index": 1
+  },
+  {
+    "id": "pi_team_03",
+    "text": "The Paramount Intelligence team also includes strategy consultants, marketing leadership, and technical specialists such as Ahsan-ud-din, Faisal Hayat, and interns supporting AI engineering and data science initiatives.",
+    "source": "/team",
+    "category": "team",
+    "chunk_index": 2
+  }
+]

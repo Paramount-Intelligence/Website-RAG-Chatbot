@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pi_about_01",
+    "text": "Paramount Intelligence is a technology consulting and engineering firm specializing in AI strategy, advisory, and engineering. The company designs, builds, and operationalizes intelligent systems that help organizations solve complex business challenges using AI, data analytics, cloud infrastructure, and automation.",
+    "source": "/about",
+    "category": "about",
+    "chunk_index": 0
+  },
+  {
+    "id": "pi_about_02",
+    "text": "Paramount Intelligence works with startups, mid-market companies, and large enterprises to turn experimental AI initiatives into production-ready systems. The firm focuses on delivering scalable, secure, and operationally reliable technology platforms that improve decision-making, increase operational efficiency, and support long-term business growth.",
+    "source": "/about",
+    "category": "about",
+    "chunk_index": 1
+  },
+  {
+    "id": "pi_about_03",
+    "text": "The company provides end-to-end technology consulting covering AI solutions engineering, data and analytics, cloud services, and AI workflow automation. Paramount Intelligence acts as a long-term technology partner, helping organizations move from strategy to implementation and continuous optimization.",
+    "source": "/about",
+    "category": "about",
+    "chunk_index": 2
+  }
+]

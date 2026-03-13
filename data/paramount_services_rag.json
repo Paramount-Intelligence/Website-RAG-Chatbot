@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pi_services_01",
+    "text": "Paramount Intelligence provides AI solutions and engineering services that design and deploy custom AI systems capable of operating at enterprise scale. These services include generative AI applications, agentic AI systems, machine learning platforms, and AI-powered voice agents integrated into business workflows.",
+    "source": "/services/ai-engineering",
+    "category": "services",
+    "chunk_index": 0
+  },
+  {
+    "id": "pi_services_02",
+    "text": "The firm offers AI strategy and consulting services that help organizations identify high-value AI use cases, develop strategic roadmaps, and design secure technology architectures. These consulting engagements focus on aligning AI initiatives with measurable business outcomes and long-term operational capabilities.",
+    "source": "/services/ai-strategy",
+    "category": "services",
+    "chunk_index": 1
+  },
+  {
+    "id": "pi_services_03",
+    "text": "Paramount Intelligence also delivers data engineering, analytics platforms, cloud architecture, and AI-powered workflow automation. These capabilities enable organizations to modernize their data foundations, automate complex processes, and integrate intelligent decision-making into enterprise systems.",
+    "source": "/services",
+    "category": "services",
+    "chunk_index": 2
+  }
+]

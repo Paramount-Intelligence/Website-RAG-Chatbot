@@ -1,0 +1,14 @@
+# List of dependencies for the Flask RAG Chatbot project
+flask>=3.0.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+# Sentence transformers for embeddings
+sentence-transformers>=2.2.0
+# FAISS for local vector search (no API keys needed)
+faiss-cpu>=1.8.0
+numpy>=1.24.0
+# The following packages are often needed for a robust Flask app, 
+# but for this minimal example, the above are strictly necessary.
+# requests
+# gunicorn # for production deployment

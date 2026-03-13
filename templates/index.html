@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramount Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- ── Floating Chat Widget ─────────────────────────── -->
+    <div id="chat-widget">
+
+        <!-- Popup -->
+        <div class="chat-popup" id="chat-popup" aria-hidden="true">
+
+            <!-- Header -->
+            <div class="popup-header">
+                <div class="popup-header-left">
+                    <div class="popup-avatar">
+                        <svg width="16" height="16" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 3L29 10V22L16 29L3 22V10L16 3Z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                            <path d="M16 3L29 10L16 17L3 10L16 3Z" fill="currentColor" fill-opacity="0.45"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="popup-title">Paramount Nexus</div>
+                        <div class="popup-status"><span class="status-dot"></span>Online</div>
+                    </div>
+                </div>
+                <button class="close-btn" id="close-btn" aria-label="Close chat">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Messages -->
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hi! I'm Paramount Nexus, your AI assistant. Ask me anything about Paramount Intelligence — our services, team, or company.</p>
+                        <div class="quick-suggestions">
+                            <button class="suggestion-btn">Our Services</button>
+                            <button class="suggestion-btn">Meet the Team</button>
+                            <button class="suggestion-btn">About Us</button>
+                        </div>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input -->
+            <div class="chat-input-area">
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type a message…" autocomplete="off">
+                    <button id="send-button" aria-label="Send">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 2L11 13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+                <p class="input-footer">Paramount Intelligence · AI Assistant</p>
+            </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <button class="chat-toggle" id="chat-toggle" aria-label="Open chat">
+            <!-- Chat icon (default) -->
+            <svg class="icon-chat" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+            <!-- Close icon (when open) -->
+            <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+            <span class="unread-badge" id="unread-badge" style="display:none">1</span>
+        </button>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+</body>
+</html>
