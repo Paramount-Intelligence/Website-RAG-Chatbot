@@ -7,7 +7,7 @@ load_dotenv()
 # --- API KEY ---
 # IMPORTANT: Replace 'YOUR_GEMINI_API_KEY' with your actual key or set it in a .env file.
 # The Gemini API key is used for both embeddings and the LLM.
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyCI81H_BYLj_K2fKOTp1M6IT4klH-jCQgw")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "Your_api_key")
 
 
 # --- FAISS CONFIGURATION ---
